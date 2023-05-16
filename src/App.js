@@ -101,7 +101,7 @@ href:'https://alt-school-vue-github-repo.vercel.app/'
       <header className="intro">
         <nav className="header" >
           {/* hamburger  */}
-          <img src="https://img.icons8.com/?size=512&id=59832&format=png" alt="menu" onClick={showNavBar} />
+          <img src="https://img.icons8.com/?size=512&id=59832&format=png" alt="menu" className="menu" onClick={showNavBar} />
           <h1 className="animate__animated animate__fadeInLeftBig">Wonuola Alonge</h1>
           <div className='desktop-nav'>
 
@@ -166,7 +166,8 @@ href:'https://alt-school-vue-github-repo.vercel.app/'
       </header>
 
       <main>
-        <section className="intro-contain">
+        <section className="main-header">
+          <div className="intro-contain">
           <div>
             <b className="animate__animated animate__fadeInLeftBig">Hi, I'm Wonuola</b>
             <h2>A front-end  developer</h2>
@@ -176,7 +177,8 @@ href:'https://alt-school-vue-github-repo.vercel.app/'
             </a>
           </div>
           <div>
-            <img src={img} alt="hero" className="img"/>
+            
+          </div>
           </div>
         </section>
 
