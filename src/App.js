@@ -101,7 +101,7 @@ href:'https://alt-school-vue-github-repo.vercel.app/'
       <header className="intro">
         <nav className="header" >
           {/* hamburger  */}
-          <img src="https://img.icons8.com/?size=512&id=59832&format=png" alt="menu" className="menu" onClick={showNavBar} />
+          <img src="https://img.icons8.com/?size=512&id=59832&format=png" alt="menu" className="menu"  onClick={showNavBar} />
           <h1 className="animate__animated animate__fadeInLeftBig">Wonuola Alonge</h1>
           <div className='desktop-nav'>
 
@@ -116,18 +116,21 @@ href:'https://alt-school-vue-github-repo.vercel.app/'
               <img
                 src="https://img.icons8.com/?size=2x&id=rUgzXdXFnhmg&format=png"
                 alt="gmail"
+                className="icons"
               />
             </li>
             <li>
               <img
                 src="https://img.icons8.com/?size=2x&id=AZOZNnY73haj&format=png"
                 alt="github"
+                className="icons"
               />
             </li>
             <li>
               <img
                 src="https://img.icons8.com/?size=512&id=8824&format=png"
                 alt="twitter"
+                className="icons"
               />
             </li>
           </ul>
@@ -135,7 +138,7 @@ href:'https://alt-school-vue-github-repo.vercel.app/'
         </nav>
 
         <div className={isNavExpanded ? "nav expanded" : "nav"}>
-<img src="https://img.icons8.com/?size=2x&id=3062&format=png" alt="cancel" onClick={showNavBar} />
+<img src="https://img.icons8.com/?size=2x&id=3062&format=png" alt="cancel" onClick={showNavBar} className="icons"/>
 <ul>
   <li><a href="/">Home</a></li>
   <li><a href="#About">About</a></li>
@@ -146,19 +149,19 @@ href:'https://alt-school-vue-github-repo.vercel.app/'
   <li>
     <img
       src="https://img.icons8.com/?size=2x&id=rUgzXdXFnhmg&format=png"
-      alt="gmail"
+      alt="gmail" className="icons"
     />
   </li>
   <li>
     <img
       src="https://img.icons8.com/?size=2x&id=AZOZNnY73haj&format=png"
-      alt="github"
+      alt="github" className="icons"
     />
   </li>
   <li>
     <img
       src="https://img.icons8.com/?size=512&id=8824&format=png"
-      alt="twitter"
+      alt="twitter" className="icons"
     />
   </li>
 </ul>
@@ -171,11 +174,13 @@ href:'https://alt-school-vue-github-repo.vercel.app/'
           <div>
             <b className="animate__animated animate__fadeInLeftBig">Hi, I'm Wonuola</b>
             <h2>A front-end  developer</h2>
-            <p>based in Lagos Nigeria</p>
+            <b>based in Lagos Nigeria</b>
             <a href="Resume">
               <a href="https://docs.google.com/document/d/1BAg4AfWDIeQYCSgkBbXBZWKqjmLAnRfcTojiujMY6XA/edit?usp=sharing" className="fstbtn">Resume</a>
             </a>
+           
           </div>
+          <img src="https://i.pinimg.com/564x/37/fc/2c/37fc2c8028f8af5c6c2c814f044d7166.jpg" alt="plant" className="plant"/>
           <div>
             
           </div>
